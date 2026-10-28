@@ -10,7 +10,7 @@ metadata:
 
 # Suno producer
 
-Turn "a sad synthwave song about a night bus, female vocal" into something Suno can actually follow: a style prompt that describes sound rather than names, a tagged structure, lyrics whose lines are the same length inside each section, and two or three variants that differ in exactly one thing. The most common trigger is "write me a Suno prompt for ...". It is written for the two fields the Suno editor exposes, Style and Lyrics (v4.5 at the time of writing, 2026-10); the field budgets are defaults you can override. The scripts are plain Python 3 with no packages.
+Turn "a sad synthwave song about a night bus, female vocal" into something Suno can actually follow: a style prompt that describes sound rather than names, a tagged structure, lyrics whose lines are the same length inside each section, and two or three variants that differ in exactly one thing. The most common trigger is "write me a Suno prompt for ...". It is written for the two fields the Suno editor exposes, Style and Lyrics. The tag list and budgets were compiled against Suno v4.5 and later (v5.5 is current as of 2026-10); nothing here is a per-version spec, the editor shows the live limits and the lint budgets are flags you can override. The scripts are plain Python 3 with no packages.
 
 ## When to use
 

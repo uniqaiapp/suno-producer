@@ -22,7 +22,7 @@
 
 # suno-producer: Suno prompts, meta-tags and lyric structure
 
-Suno prompts in three parts: a one-line **style prompt** (genre, BPM, key, mood, instruments, production, vocal), a **section structure** with meta-tags (`[Intro]`, `[Verse]`, `[Pre-Chorus]`, `[Chorus]`, `[Drop]`, `[Bridge]`, `[Outro]`), and **lyrics** whose lines are even enough for a generated vocal to sing without rushing, written for the Style and Lyrics fields of the Suno editor (v4.5 at the time of writing). It runs as a Claude Code skill, a Cursor rule or a Codex `AGENTS.md` snippet, and the three scripts work on their own as a plain checklist with a lint. UniqAI makes photo, video and chat tools, not music; this is a side project we use ourselves.
+Suno prompts in three parts: a one-line **style prompt** (genre, BPM, key, mood, instruments, production, vocal), a **section structure** with meta-tags (`[Intro]`, `[Verse]`, `[Pre-Chorus]`, `[Chorus]`, `[Drop]`, `[Bridge]`, `[Outro]`), and **lyrics** whose lines are even enough for a generated vocal to sing without rushing, written for the Style and Lyrics fields of the Suno editor. The tag list and field budgets were compiled against Suno v4.5 and later (v5.5 is the current model as of 2026-10, per [Suno's March 2026 release coverage](https://www.musicbusinessworldwide.com/suno-launches-v5-5-ai-model-with-voice-capture-and-personalization-features)); the editor shows the live limits, and the lint budgets are flags you can override. It runs as a Claude Code skill, a Cursor rule or a Codex `AGENTS.md` snippet, and the three scripts work on their own as a plain checklist with a lint. UniqAI makes photo, video and chat tools, not music; this is a side project we use ourselves.
 
 | **Brief in, prompt out** | **Lyric meter, EN + RU** | **Lint before you spend credits** |
 |:---|:---|:---|
@@ -130,14 +130,14 @@ Input: `examples/lyrics/severny-veter.ru.txt`. Command: `python3 scripts/lyric_m
    2  10  Чай на столе остывает давно                  A
    3  10  Я не ответил на тысячу слов                  B
    4  10  Город молчит, и молчать я готов              B
-[Chorus]       4 lines · syllables 8 · scheme ABAb
+[Chorus]       4 lines · syllables 8 · scheme ABAB
    1   8  Не уходи, пока горит                         A
    2   8  Последний свет в моём окне                   B
    3   8  Пусть этот город говорит                     A
-   4   8  О ком-то, но не обо мне                      b
+   4   8  О ком-то, но не обо мне                      B
 ```
 
-Lowercase `b` marks a slant rhyme by the script's ending rule (`окне` / `мне`); to the ear it is full. See `references/russian-vocals.md`.
+Every rhyme here is full by the script's ending rule. For a slant rhyme, see verse 2 of the English song above: `scheme ABaB`, where lowercase `a` marks `door` / `for` as an ending-only match. Russian specifics: `references/russian-vocals.md`.
 
 </details>
 
