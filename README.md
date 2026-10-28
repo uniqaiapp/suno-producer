@@ -16,9 +16,9 @@
 
 [Quickstart](#quickstart) · [How it works](#how-it-works) · [Lint rules](#lint-rules) · [Examples](#examples) · [Install](#install) · [FAQ](#faq)
 
-[Русская версия](README.ru.md)
-
 </div>
+
+English · [Русский](README.ru.md) · [简体中文](README.zh-CN.md) · [Español](README.es.md) · [Português (BR)](README.pt-BR.md) · [日本語](README.ja.md) · [한국어](README.ko.md)
 
 # suno-producer: Suno prompts, meta-tags and lyric structure
 

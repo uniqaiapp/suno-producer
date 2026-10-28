@@ -117,7 +117,9 @@ class Adapters(unittest.TestCase):
 
 class Readme(unittest.TestCase):
     def test_utm_on_every_uniqai_link(self):
-        for rel in ("README.md", "README.ru.md"):
+        readmes = sorted(f for f in os.listdir(ROOT) if f.startswith("README") and f.endswith(".md"))
+        self.assertIn("README.md", readmes)
+        for rel in readmes:
             text = read(rel)
             links = re.findall(r"https://uniqai\.app[^\s)\"'>]*", text)
             self.assertTrue(links, rel)
