@@ -1,0 +1,76 @@
+{
+  "genre": "house",
+  "fuse": null,
+  "mood": "euphoric",
+  "vocal": "female",
+  "bpm": 124,
+  "bpm_range": [
+    120,
+    128
+  ],
+  "key": "F minor",
+  "lang": "en",
+  "feel": "four-on-the-floor, driving",
+  "structure": "edm",
+  "sections": [
+    "Intro",
+    "Verse 1",
+    "Build",
+    "Drop",
+    "Verse 2",
+    "Build",
+    "Drop",
+    "Breakdown",
+    "Drop",
+    "Outro"
+  ],
+  "style_prompts": [
+    {
+      "id": "A",
+      "axis": "base",
+      "prompt": "house, 124 BPM, F minor, euphoric, anthemic, rolling bassline, filtered disco sample, sidechain compression, warm female vocal"
+    },
+    {
+      "id": "B",
+      "axis": "vocal",
+      "prompt": "house, 124 BPM, F minor, euphoric, anthemic, rolling bassline, filtered disco sample, sidechain compression, breathy female vocal"
+    },
+    {
+      "id": "C",
+      "axis": "production",
+      "prompt": "house, 124 BPM, F minor, euphoric, anthemic, rolling bassline, filtered disco sample, club mix, warm female vocal"
+    },
+    {
+      "id": "D",
+      "axis": "tempo",
+      "prompt": "house, 128 BPM, F minor, euphoric, anthemic, rolling bassline, filtered disco sample, sidechain compression, warm female vocal"
+    }
+  ],
+  "lyric_brief": [
+    {
+      "section": "Intro",
+      "note": "instrumental or one sung line; sets tempo and the main instrument. Leave empty or one line."
+    },
+    {
+      "section": "Verse 1",
+      "note": "4 lines, 7-9 syllables, scheme ABAB or AABB; one scene, concrete nouns, no abstractions."
+    },
+    {
+      "section": "Build",
+      "note": "2 lines or none; short words, rising energy; can be the hook spoken."
+    },
+    {
+      "section": "Drop",
+      "note": "instrumental, or one repeated phrase in (parentheses) for the model to chop."
+    },
+    {
+      "section": "Breakdown",
+      "note": "2 lines, half the density of a verse; strip to vocal and one instrument."
+    },
+    {
+      "section": "Outro",
+      "note": "repeat the title line once or twice, then (fade out) or a final short line."
+    }
+  ],
+  "seed": 11
+}

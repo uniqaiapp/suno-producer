@@ -1,0 +1,293 @@
+{
+  "lang": "en",
+  "sections": [
+    {
+      "tag": "Intro",
+      "lines": [],
+      "scheme": "",
+      "min": 0,
+      "max": 0,
+      "median": 0
+    },
+    {
+      "tag": "Verse 1",
+      "scheme": "ABAB",
+      "min": 6,
+      "max": 8,
+      "median": 7.0,
+      "lines": [
+        {
+          "n": 1,
+          "syllables": 6,
+          "text": "Streetlights hum a tired song",
+          "rhyme": "A",
+          "key": "ong"
+        },
+        {
+          "n": 2,
+          "syllables": 7,
+          "text": "Rain keeps tapping on the glass",
+          "rhyme": "B",
+          "key": "ass"
+        },
+        {
+          "n": 3,
+          "syllables": 8,
+          "text": "Every stop takes twice as long",
+          "rhyme": "A",
+          "key": "ong"
+        },
+        {
+          "n": 4,
+          "syllables": 7,
+          "text": "Watching all the faces pass",
+          "rhyme": "B",
+          "key": "ass"
+        }
+      ]
+    },
+    {
+      "tag": "Pre-Chorus",
+      "scheme": "AA",
+      "min": 8,
+      "max": 9,
+      "median": 8.5,
+      "lines": [
+        {
+          "n": 1,
+          "syllables": 8,
+          "text": "I count the stops, I count the miles",
+          "rhyme": "A",
+          "key": "e"
+        },
+        {
+          "n": 2,
+          "syllables": 9,
+          "text": "I keep your seat warm for a while",
+          "rhyme": "A",
+          "key": "e"
+        }
+      ]
+    },
+    {
+      "tag": "Chorus",
+      "scheme": "AABB",
+      "min": 6,
+      "max": 9,
+      "median": 7.0,
+      "lines": [
+        {
+          "n": 1,
+          "syllables": 6,
+          "text": "Midnight bus, take me home",
+          "rhyme": "A",
+          "key": "om"
+        },
+        {
+          "n": 2,
+          "syllables": 7,
+          "text": "Through a city made of chrome",
+          "rhyme": "A",
+          "key": "om"
+        },
+        {
+          "n": 3,
+          "syllables": 9,
+          "text": "Every window's a telephone",
+          "rhyme": "B",
+          "key": "on"
+        },
+        {
+          "n": 4,
+          "syllables": 7,
+          "text": "Ringing nowhere, ringing on",
+          "rhyme": "B",
+          "key": "on"
+        }
+      ]
+    },
+    {
+      "tag": "Verse 2",
+      "scheme": "ABaB",
+      "min": 7,
+      "max": 8,
+      "median": 7.0,
+      "lines": [
+        {
+          "n": 1,
+          "syllables": 7,
+          "text": "Someone's sleeping by the door",
+          "rhyme": "A",
+          "key": "oor"
+        },
+        {
+          "n": 2,
+          "syllables": 7,
+          "text": "Someone's laughing at the back",
+          "rhyme": "B",
+          "key": "ack"
+        },
+        {
+          "n": 3,
+          "syllables": 8,
+          "text": "I don't know what I'm waiting for",
+          "rhyme": "a",
+          "key": "or"
+        },
+        {
+          "n": 4,
+          "syllables": 7,
+          "text": "Only that I'm coming back",
+          "rhyme": "B",
+          "key": "ack"
+        }
+      ]
+    },
+    {
+      "tag": "Pre-Chorus",
+      "scheme": "AA",
+      "min": 8,
+      "max": 9,
+      "median": 8.5,
+      "lines": [
+        {
+          "n": 1,
+          "syllables": 8,
+          "text": "I count the stops, I count the miles",
+          "rhyme": "A",
+          "key": "e"
+        },
+        {
+          "n": 2,
+          "syllables": 9,
+          "text": "I keep your seat warm for a while",
+          "rhyme": "A",
+          "key": "e"
+        }
+      ]
+    },
+    {
+      "tag": "Chorus",
+      "scheme": "AABB",
+      "min": 6,
+      "max": 9,
+      "median": 7.0,
+      "lines": [
+        {
+          "n": 1,
+          "syllables": 6,
+          "text": "Midnight bus, take me home",
+          "rhyme": "A",
+          "key": "om"
+        },
+        {
+          "n": 2,
+          "syllables": 7,
+          "text": "Through a city made of chrome",
+          "rhyme": "A",
+          "key": "om"
+        },
+        {
+          "n": 3,
+          "syllables": 9,
+          "text": "Every window's a telephone",
+          "rhyme": "B",
+          "key": "on"
+        },
+        {
+          "n": 4,
+          "syllables": 7,
+          "text": "Ringing nowhere, ringing on",
+          "rhyme": "B",
+          "key": "on"
+        }
+      ]
+    },
+    {
+      "tag": "Bridge",
+      "scheme": "AA",
+      "min": 7,
+      "max": 8,
+      "median": 7.5,
+      "lines": [
+        {
+          "n": 1,
+          "syllables": 7,
+          "text": "If the driver never stops",
+          "rhyme": "A",
+          "key": "op"
+        },
+        {
+          "n": 2,
+          "syllables": 8,
+          "text": "I'll ride it till the ceiling drops",
+          "rhyme": "A",
+          "key": "op"
+        }
+      ]
+    },
+    {
+      "tag": "Chorus",
+      "scheme": "AABB",
+      "min": 6,
+      "max": 9,
+      "median": 7.0,
+      "lines": [
+        {
+          "n": 1,
+          "syllables": 6,
+          "text": "Midnight bus, take me home",
+          "rhyme": "A",
+          "key": "om"
+        },
+        {
+          "n": 2,
+          "syllables": 7,
+          "text": "Through a city made of chrome",
+          "rhyme": "A",
+          "key": "om"
+        },
+        {
+          "n": 3,
+          "syllables": 9,
+          "text": "Every window's a telephone",
+          "rhyme": "B",
+          "key": "on"
+        },
+        {
+          "n": 4,
+          "syllables": 7,
+          "text": "Ringing nowhere, ringing on",
+          "rhyme": "B",
+          "key": "on"
+        }
+      ]
+    },
+    {
+      "tag": "Outro",
+      "scheme": "AA",
+      "min": 3,
+      "max": 6,
+      "median": 4.5,
+      "lines": [
+        {
+          "n": 1,
+          "syllables": 6,
+          "text": "Midnight bus, take me home",
+          "rhyme": "A",
+          "key": "om"
+        },
+        {
+          "n": 2,
+          "syllables": 3,
+          "text": "(take me home)",
+          "rhyme": "A",
+          "key": "om",
+          "backing": true
+        }
+      ]
+    }
+  ],
+  "warnings": [],
+  "file": "examples/lyrics/midnight-bus.txt"
+}

@@ -1,0 +1,40 @@
+lyric_meter  examples/lyrics/midnight-bus.txt  (lang: en)
+[Intro]        empty
+[Verse 1]      4 lines · syllables 6-8 · scheme ABAB
+   1   6  Streetlights hum a tired song                A
+   2   7  Rain keeps tapping on the glass              B
+   3   8  Every stop takes twice as long               A
+   4   7  Watching all the faces pass                  B
+[Pre-Chorus]   2 lines · syllables 8-9 · scheme AA
+   1   8  I count the stops, I count the miles         A
+   2   9  I keep your seat warm for a while            A
+[Chorus]       4 lines · syllables 6-9 · scheme AABB
+   1   6  Midnight bus, take me home                   A
+   2   7  Through a city made of chrome                A
+   3   9  Every window's a telephone                   B
+   4   7  Ringing nowhere, ringing on                  B
+[Verse 2]      4 lines · syllables 7-8 · scheme ABaB
+   1   7  Someone's sleeping by the door               A
+   2   7  Someone's laughing at the back               B
+   3   8  I don't know what I'm waiting for            a
+   4   7  Only that I'm coming back                    B
+[Pre-Chorus]   2 lines · syllables 8-9 · scheme AA
+   1   8  I count the stops, I count the miles         A
+   2   9  I keep your seat warm for a while            A
+[Chorus]       4 lines · syllables 6-9 · scheme AABB
+   1   6  Midnight bus, take me home                   A
+   2   7  Through a city made of chrome                A
+   3   9  Every window's a telephone                   B
+   4   7  Ringing nowhere, ringing on                  B
+[Bridge]       2 lines · syllables 7-8 · scheme AA
+   1   7  If the driver never stops                    A
+   2   8  I'll ride it till the ceiling drops          A
+[Chorus]       4 lines · syllables 6-9 · scheme AABB
+   1   6  Midnight bus, take me home                   A
+   2   7  Through a city made of chrome                A
+   3   9  Every window's a telephone                   B
+   4   7  Ringing nowhere, ringing on                  B
+[Outro]        2 lines · syllables 3-6 · scheme AA
+   1   6  Midnight bus, take me home                   A
+   2   3  (take me home)                               A
++ no length or rhyme warnings

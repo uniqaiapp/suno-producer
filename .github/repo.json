@@ -1,0 +1,29 @@
+{
+  "name": "suno-producer",
+  "description": "Suno producer skill: write style prompts, meta-tags and lyric structure ([Verse], [Chorus], [Bridge]) for Suno v4.5+ by genre, mood and language, including Russian-language vocals. Claude Code skill + Cursor/Codex rules + a stdlib lint for tag placement and prompt length. Промпты для Suno на русском. By UniqAI.",
+  "homepage": "https://uniqai.app/?utm_source=github&utm_medium=readme&utm_campaign=suno-producer",
+  "topics": [
+    "suno",
+    "suno-ai",
+    "suno-prompts",
+    "ai-music",
+    "music-generation",
+    "lyrics",
+    "songwriting",
+    "prompt-engineering",
+    "claude-skills",
+    "agent-skills",
+    "cursor-rules",
+    "russian",
+    "uniqai"
+  ],
+  "settings": {
+    "has_issues": true,
+    "has_discussions": true,
+    "has_wiki": false,
+    "has_projects": false,
+    "default_branch": "main"
+  },
+  "social_preview": "assets/social-preview.png",
+  "launch_copy": "see org-shared SEO.md, section 6, suno-producer"
+}

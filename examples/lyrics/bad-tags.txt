@@ -1,0 +1,27 @@
+This line comes before any tag, so the model decides what it is
+[intro]
+[Verse 1]
+I wrote this one to sound like a famous singer
+[Verse 1]
+[Guitar Shred]
+[Chorus
+Lost a bracket somewhere up there
+[Verse 2] starting right after the tag on the same line
+[Chorus]
+Line one of a chorus that never ends
+Line two of a chorus that never ends
+Line three of a chorus that never ends
+Line four of a chorus that never ends
+Line five of a chorus that never ends
+Line six of a chorus that never ends
+Line seven of a chorus that never ends
+Line eight of a chorus that never ends
+Line nine of a chorus that never ends
+Line ten of a chorus that never ends
+Line eleven of a chorus that never ends
+Line twelve of a chorus that never ends
+Line thirteen of a chorus that never ends
+[Outro]
+Nearly done
+[Bridge]
+Except the bridge came after the outro

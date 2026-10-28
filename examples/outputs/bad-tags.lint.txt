@@ -1,0 +1,15 @@
+suno_lint  examples/lyrics/bad-tags.txt
+! L002  lyrics before the first section tag; Suno treats untagged text as a verse
+x L007  artist-imitation phrase in style prompt ("sounds like"); describe the sound instead
+! L012  style prompt contains [tags]; tags belong in the lyrics field
+! L013  style prompt has 4 lines; one comma-separated line reads more reliably
+i L015  style prompt has no tempo (e.g. '104 BPM' or 'mid-tempo')
+! L014  line 2: tag [intro] is lower-case; write tags Capitalised for consistency
+x L007  line 4: artist-imitation phrase in lyrics ("sound like"); Suno rejects named artists
+! L016  line 5: section [Verse 1] has no lines
+! L001  line 6: unknown tag [Guitar Shred]; Suno may sing it instead of following it
+x L006  line 7: unbalanced square brackets
+! L010  line 9: tag inside a lyric line; put each tag on its own line
+! L011  line 10: [Chorus] has 13 lines (limit 12); long sections tend to get rushed or cut
+! L005  line 24: [Outro] is not the last tag
+= 3 error(s), 9 warning(s), 1 info

@@ -1,0 +1,2 @@
+suno_lint  examples/lyrics/severny-veter.ru.txt
++ clean: 0 errors, 0 warnings

@@ -1,0 +1,169 @@
+{
+  "_about": "Editorial defaults used by scripts/brief.py: typical tempo ranges, keys, instruments and vocal descriptors per genre. These are starting points for a style prompt, not measurements. Edit freely; add a genre by copying a block. CC BY 4.0, UniqAI, https://github.com/uniqaiapp/suno-producer",
+  "structures": {
+    "pop":      ["Intro", "Verse 1", "Pre-Chorus", "Chorus", "Verse 2", "Pre-Chorus", "Chorus", "Bridge", "Chorus", "Outro"],
+    "ballad":   ["Intro", "Verse 1", "Chorus", "Verse 2", "Chorus", "Bridge", "Chorus", "Outro"],
+    "edm":      ["Intro", "Verse 1", "Build", "Drop", "Verse 2", "Build", "Drop", "Breakdown", "Drop", "Outro"],
+    "hiphop":   ["Intro", "Hook", "Verse 1", "Hook", "Verse 2", "Hook", "Bridge", "Hook", "Outro"],
+    "rock":     ["Intro", "Verse 1", "Chorus", "Verse 2", "Chorus", "Guitar Solo", "Bridge", "Chorus", "Outro"],
+    "lofi":     ["Intro", "Verse 1", "Hook", "Verse 2", "Hook", "Interlude", "Hook", "Outro"],
+    "folk":     ["Intro", "Verse 1", "Verse 2", "Chorus", "Verse 3", "Chorus", "Bridge", "Chorus", "Outro"],
+    "short":    ["Verse 1", "Chorus", "Verse 2", "Chorus", "Outro"]
+  },
+  "moods": {
+    "melancholic": ["melancholic", "wistful", "bittersweet", "rainy"],
+    "euphoric":    ["euphoric", "anthemic", "uplifting", "soaring"],
+    "dark":        ["dark", "brooding", "tense", "cinematic"],
+    "warm":        ["warm", "intimate", "cozy", "nostalgic"],
+    "playful":     ["playful", "bouncy", "cheeky", "bright"],
+    "angry":       ["aggressive", "raw", "urgent", "relentless"],
+    "dreamy":      ["dreamy", "hazy", "floating", "ethereal"]
+  },
+  "vocals": {
+    "female":  ["warm female vocal", "breathy female vocal", "powerful female vocal", "soft female vocal"],
+    "male":    ["warm male vocal", "gritty male vocal", "smooth male vocal", "low male vocal"],
+    "duet":    ["male and female duet", "call-and-response duet"],
+    "choir":   ["layered choir", "gang vocals"],
+    "none":    ["instrumental"]
+  },
+  "genres": {
+    "synthwave": {
+      "bpm": [84, 118], "keys": ["A minor", "F# minor", "C minor", "E minor"], "feel": "mid-tempo, four-on-the-floor",
+      "instruments": ["analog synth arpeggios", "gated reverb drums", "fat synth bass", "retro drum machine"],
+      "production": ["80s production", "chorus-drenched guitars", "wide stereo pads", "tape saturation"],
+      "default_vocal": "female", "structure": "pop"
+    },
+    "indie pop": {
+      "bpm": [98, 128], "keys": ["C major", "G major", "D major", "A major"], "feel": "uptempo, bright",
+      "instruments": ["jangly electric guitar", "tight live drums", "clean bass", "sparkly synth lead"],
+      "production": ["lo-fi warmth", "room reverb", "doubled vocals", "handclaps"],
+      "default_vocal": "female", "structure": "pop"
+    },
+    "lo-fi hip hop": {
+      "bpm": [70, 90], "keys": ["D minor", "F major", "Bb major", "G minor"], "feel": "laid-back, head-nod",
+      "instruments": ["dusty drum break", "Rhodes piano", "muted trumpet", "vinyl crackle"],
+      "production": ["tape hiss", "sidechain pump", "low-passed samples", "swung hats"],
+      "default_vocal": "none", "structure": "lofi"
+    },
+    "boom bap": {
+      "bpm": [86, 96], "keys": ["A minor", "E minor", "C minor"], "feel": "mid-tempo, hard-hitting",
+      "instruments": ["chopped soul sample", "punchy kick and snare", "upright bass", "scratches"],
+      "production": ["90s East Coast production", "gritty sampling", "vinyl texture"],
+      "default_vocal": "male", "structure": "hiphop"
+    },
+    "trap": {
+      "bpm": [130, 160], "keys": ["F minor", "C# minor", "G minor"], "feel": "half-time feel, heavy",
+      "instruments": ["808 bass", "rolling hi-hats", "dark piano", "bell melody"],
+      "production": ["modern trap production", "autotuned ad-libs", "sub-heavy mix"],
+      "default_vocal": "male", "structure": "hiphop"
+    },
+    "house": {
+      "bpm": [120, 128], "keys": ["A minor", "F minor", "C minor"], "feel": "four-on-the-floor, driving",
+      "instruments": ["piano stabs", "filtered disco sample", "punchy kick", "rolling bassline"],
+      "production": ["club mix", "sidechain compression", "filter sweeps", "vocal chops"],
+      "default_vocal": "female", "structure": "edm"
+    },
+    "techno": {
+      "bpm": [126, 140], "keys": ["F minor", "D minor", "A minor"], "feel": "driving, hypnotic",
+      "instruments": ["pounding kick", "acid bassline", "metallic percussion", "rumbling sub"],
+      "production": ["warehouse reverb", "minimal arrangement", "long filter builds"],
+      "default_vocal": "none", "structure": "edm"
+    },
+    "drum and bass": {
+      "bpm": [170, 176], "keys": ["F minor", "G minor", "A minor"], "feel": "fast, breakbeat",
+      "instruments": ["amen break", "Reese bass", "atmospheric pads", "pitched vocal chops"],
+      "production": ["liquid production", "rolling breaks", "huge sub"],
+      "default_vocal": "female", "structure": "edm"
+    },
+    "pop punk": {
+      "bpm": [150, 185], "keys": ["E major", "A major", "D major", "C# minor"], "feel": "fast, energetic",
+      "instruments": ["palm-muted power chords", "fast drums", "driving bass", "octave lead guitar"],
+      "production": ["2000s pop punk production", "gang vocals", "tight double-tracked guitars"],
+      "default_vocal": "male", "structure": "rock"
+    },
+    "indie rock": {
+      "bpm": [100, 140], "keys": ["E minor", "G major", "D major", "B minor"], "feel": "mid-tempo, driving",
+      "instruments": ["overdriven guitars", "live drums", "melodic bass", "tambourine"],
+      "production": ["garage production", "room mics", "fuzz", "raw mix"],
+      "default_vocal": "male", "structure": "rock"
+    },
+    "post-rock": {
+      "bpm": [70, 110], "keys": ["D major", "E minor", "C major"], "feel": "slow build, dynamic",
+      "instruments": ["tremolo guitars", "delay-soaked leads", "crescendo drums", "strings"],
+      "production": ["cinematic production", "long reverb tails", "quiet-loud dynamics"],
+      "default_vocal": "none", "structure": "ballad"
+    },
+    "folk": {
+      "bpm": [80, 120], "keys": ["G major", "D major", "C major", "A minor"], "feel": "mid-tempo, strummed",
+      "instruments": ["acoustic guitar", "fiddle", "upright bass", "mandolin", "harmonica"],
+      "production": ["live-in-a-room production", "close-miked vocal", "minimal reverb"],
+      "default_vocal": "male", "structure": "folk"
+    },
+    "country": {
+      "bpm": [90, 130], "keys": ["G major", "D major", "A major", "E major"], "feel": "mid-tempo, steady",
+      "instruments": ["telecaster twang", "pedal steel", "acoustic guitar", "brushed drums"],
+      "production": ["Nashville production", "tight harmonies", "warm mix"],
+      "default_vocal": "male", "structure": "pop"
+    },
+    "r&b": {
+      "bpm": [60, 95], "keys": ["Eb major", "Bb minor", "F minor", "Ab major"], "feel": "slow groove, smooth",
+      "instruments": ["electric piano", "finger-snap percussion", "deep bass", "soft pads"],
+      "production": ["modern R&B production", "stacked harmonies", "silky mix"],
+      "default_vocal": "female", "structure": "pop"
+    },
+    "soul": {
+      "bpm": [70, 110], "keys": ["C major", "F major", "G minor", "D minor"], "feel": "mid-tempo, grooving",
+      "instruments": ["Hammond organ", "horn section", "live drums", "wah guitar"],
+      "production": ["60s soul production", "tape warmth", "live room"],
+      "default_vocal": "female", "structure": "pop"
+    },
+    "jazz": {
+      "bpm": [60, 200], "keys": ["Bb major", "F major", "Eb major", "C minor"], "feel": "swing",
+      "instruments": ["upright bass", "brushed drums", "piano trio", "muted trumpet", "tenor sax"],
+      "production": ["small club recording", "natural room", "minimal processing"],
+      "default_vocal": "female", "structure": "ballad"
+    },
+    "ambient": {
+      "bpm": [50, 80], "keys": ["C major", "D major", "A minor"], "feel": "beatless, slow",
+      "instruments": ["evolving pads", "field recordings", "granular textures", "soft piano"],
+      "production": ["ambient production", "long reverb", "slow swells"],
+      "default_vocal": "none", "structure": "ballad"
+    },
+    "metal": {
+      "bpm": [120, 200], "keys": ["E minor", "D minor", "C# minor", "B minor"], "feel": "fast, heavy",
+      "instruments": ["downtuned guitars", "double-kick drums", "chugging riffs", "shredding lead"],
+      "production": ["modern metal production", "tight low end", "layered rhythm guitars"],
+      "default_vocal": "male", "structure": "rock"
+    },
+    "reggaeton": {
+      "bpm": [88, 100], "keys": ["A minor", "F minor", "G minor"], "feel": "dembow groove",
+      "instruments": ["dembow drums", "plucked synth", "deep bass", "perreo percussion"],
+      "production": ["modern Latin pop production", "bright mix", "vocal chops"],
+      "default_vocal": "male", "structure": "pop"
+    },
+    "piano ballad": {
+      "bpm": [60, 80], "keys": ["C major", "A minor", "F major", "Eb major"], "feel": "slow, rubato",
+      "instruments": ["grand piano", "strings", "soft brushed drums", "upright bass"],
+      "production": ["intimate production", "close vocal", "orchestral swell at the end"],
+      "default_vocal": "female", "structure": "ballad"
+    },
+    "russian chanson": {
+      "bpm": [80, 120], "keys": ["A minor", "D minor", "E minor"], "feel": "mid-tempo, steady",
+      "instruments": ["accordion", "nylon-string guitar", "soft drums", "bayan"],
+      "production": ["live-band production", "vocal up front", "modest reverb"],
+      "default_vocal": "male", "structure": "folk"
+    },
+    "russian rock": {
+      "bpm": [100, 150], "keys": ["A minor", "E minor", "D minor", "C major"], "feel": "mid-tempo, driving",
+      "instruments": ["distorted guitars", "live drums", "bass", "acoustic guitar intro"],
+      "production": ["90s Russian rock production", "raw mix", "vocal up front"],
+      "default_vocal": "male", "structure": "rock"
+    },
+    "russian pop": {
+      "bpm": [100, 128], "keys": ["A minor", "C minor", "F minor", "G minor"], "feel": "uptempo, danceable",
+      "instruments": ["synth pads", "punchy drums", "plucked synth", "piano"],
+      "production": ["modern pop production", "polished vocals", "wide chorus"],
+      "default_vocal": "female", "structure": "pop"
+    }
+  }
+}

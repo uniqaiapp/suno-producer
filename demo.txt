@@ -1,0 +1,31 @@
+$ python3 scripts/lyric_meter.py examples/lyrics/midnight-bus.txt
+> lyric_meter  examples/lyrics/midnight-bus.txt  (lang: en)
+> [Intro]        empty
+> [Verse 1]      4 lines · syllables 6-8 · scheme {l:ABAB}
+>    1   6  Streetlights hum a tired song                A
+>    2   7  Rain keeps tapping on the glass              B
+>    3   8  Every stop takes twice as long               A
+>    4   7  Watching all the faces pass                  B
+> [Pre-Chorus]   2 lines · syllables 8-9 · scheme {l:AA}
+>    1   8  I count the stops, I count the miles         A
+>    2   9  I keep your seat warm for a while            A
+> [Chorus]       4 lines · syllables 6-9 · scheme {l:AABB}
+>    1   6  Midnight bus, take me home                   A
+>    2   7  Through a city made of chrome                A
+>    3   9  Every window's a telephone                   B
+>    4   7  Ringing nowhere, ringing on                  B
+# (6 more sections cut here; full report: examples/outputs/midnight-bus.meter.txt)
++ no length or rhyme warnings
+@wait 700
+$ python3 scripts/suno_lint.py examples/lyrics/bad-tags.txt
+> suno_lint  examples/lyrics/bad-tags.txt
+! L002  lyrics before the first section tag; Suno treats untagged text as a verse
+! L014  line 2: tag [intro] is lower-case; write tags Capitalised for consistency
+> {y:x} L007  line 4: artist-imitation phrase in lyrics ("sound like"); Suno rejects named artists
+! L016  line 5: section [Verse 1] has no lines
+! L001  line 6: unknown tag [Guitar Shred]; Suno may sing it instead of following it
+> {y:x} L006  line 7: unbalanced square brackets
+! L010  line 9: tag inside a lyric line; put each tag on its own line
+! L011  line 10: [Chorus] has 13 lines (limit 12); long sections tend to get rushed or cut
+! L005  line 24: [Outro] is not the last tag
+> = {y:2 error(s)}, {y:7 warning(s)}, 0 info

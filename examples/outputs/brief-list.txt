@@ -1,0 +1,4 @@
+genres:     ambient, boom bap, country, drum and bass, folk, house, indie pop, indie rock, jazz, lo-fi hip hop, metal, piano ballad, pop punk, post-rock, r&b, reggaeton, russian chanson, russian pop, russian rock, soul, synthwave, techno, trap
+moods:      angry, dark, dreamy, euphoric, melancholic, playful, warm
+vocals:     choir, duet, female, male, none
+structures: ballad, edm, folk, hiphop, lofi, pop, rock, short

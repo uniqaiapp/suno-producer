@@ -1,0 +1,23 @@
+suno-producer brief  synthwave x indie pop
+tempo 108 BPM (range 98-118) · key C minor · mood melancholic · vocal female · lang en · seed 7
+
+Style prompt (paste into the Style field)
+  A  [base] synthwave, indie pop, 108 BPM, C minor, melancholic, wistful, gated reverb drums, retro drum machine, jangly electric guitar, 80s production, lo-fi warmth, warm female vocal
+  B  [vocal] synthwave, indie pop, 108 BPM, C minor, melancholic, wistful, gated reverb drums, retro drum machine, jangly electric guitar, 80s production, lo-fi warmth, breathy female vocal
+  C  [production] synthwave, indie pop, 108 BPM, C minor, melancholic, wistful, gated reverb drums, retro drum machine, jangly electric guitar, wide stereo pads, lo-fi warmth, warm female vocal
+
+Structure (pop)
+  [Intro] [Verse 1] [Pre-Chorus] [Chorus] [Verse 2] [Pre-Chorus] [Chorus] [Bridge] [Chorus] [Outro]
+
+Lyric brief
+  [Intro] instrumental or one sung line; sets tempo and the main instrument. Leave empty or one line.
+  [Verse 1] 4 lines, 7-9 syllables, scheme ABAB or AABB; one scene, concrete nouns, no abstractions.
+  [Pre-Chorus] 2 lines, rising; end on an unresolved thought that the chorus answers.
+  [Chorus] 4 lines, 5-8 syllables; title phrase on line 1 and line 4; simplest words in the song.
+  [Bridge] 2-4 lines, new angle or a reply to the chorus; never reuse the title line.
+  [Outro] repeat the title line once or twice, then (fade out) or a final short line.
+
+Next
+  write the lyrics with these tags, then:
+  python3 scripts/lyric_meter.py lyrics.txt
+  python3 scripts/suno_lint.py lyrics.txt --style-text "synthwave, indie pop, 108 BPM, C minor, melancholic, wistful, gated reverb drums, retro drum machine, jangly electric guitar, 80s production, lo-fi warmth, warm female vocal"

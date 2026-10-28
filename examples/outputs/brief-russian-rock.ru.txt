@@ -1,0 +1,23 @@
+suno-producer brief  russian rock
+tempo 124 BPM (range 100-150) · key E minor · mood dark · vocal male · lang ru · seed 3
+
+Style prompt (paste into the Style field)
+  A  [base] russian rock, 124 BPM, E minor, dark, brooding, live drums, acoustic guitar intro, vocal up front, warm male vocal, Russian-language vocals, clear diction
+  B  [vocal] russian rock, 124 BPM, E minor, dark, brooding, live drums, acoustic guitar intro, vocal up front, gritty male vocal, Russian-language vocals, clear diction
+  C  [production] russian rock, 124 BPM, E minor, dark, brooding, live drums, acoustic guitar intro, raw mix, warm male vocal, Russian-language vocals, clear diction
+
+Structure (rock)
+  [Intro] [Verse 1] [Chorus] [Verse 2] [Chorus] [Guitar Solo] [Bridge] [Chorus] [Outro]
+
+Lyric brief
+  [Intro] инструментал или одна строка; задаёт темп и главный инструмент.
+  [Verse 1] 4 строки, 8-11 слогов, схема ABAB или AABB; одна сцена, конкретные существительные.
+  [Chorus] 4 строки, 6-9 слогов; строка-название в 1-й и 4-й строке; самые простые слова в песне.
+  [Guitar Solo] инструментал; тег один на строке.
+  [Bridge] 2-4 строки, новый угол или ответ припеву; строку-название не повторять.
+  [Outro] повтор строки-названия один-два раза, затем (fade out).
+
+Next
+  write the lyrics with these tags, then:
+  python3 scripts/lyric_meter.py lyrics.txt
+  python3 scripts/suno_lint.py lyrics.txt --style-text "russian rock, 124 BPM, E minor, dark, brooding, live drums, acoustic guitar intro, vocal up front, warm male vocal, Russian-language vocals, clear diction"

@@ -1,0 +1,11 @@
+{
+  "name": "suno-producer",
+  "version": "0.1.0",
+  "description": "Suno-ready song briefs: style prompt, section tags, even-length lyrics and one-axis A/B variants, checked by a syllable/rhyme meter and a tag lint (English and Russian).",
+  "author": { "name": "UniqAI", "email": "support@uniqai.app", "url": "https://uniqai.app/?utm_source=github&utm_medium=plugin&utm_campaign=suno-producer" },
+  "homepage": "https://github.com/uniqaiapp/suno-producer",
+  "repository": "https://github.com/uniqaiapp/suno-producer",
+  "license": "MIT",
+  "keywords": ["claude-code", "skill", "suno", "ai-music", "songwriting", "lyrics", "prompt-engineering"],
+  "skills": ["./"]
+}

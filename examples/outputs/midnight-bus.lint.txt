@@ -1,0 +1,2 @@
+suno_lint  examples/lyrics/midnight-bus.txt
++ clean: 0 errors, 0 warnings

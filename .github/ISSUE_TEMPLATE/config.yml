@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions and ideas
+    url: https://github.com/uniqaiapp/suno-producer/discussions
+    about: Ask how to prompt a genre, share what worked, discuss a rule before opening an issue.
+  - name: Private report
+    url: mailto:support@uniqai.app
+    about: Security issues or anything you would rather not post publicly.

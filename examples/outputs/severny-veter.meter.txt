@@ -1,0 +1,34 @@
+lyric_meter  examples/lyrics/severny-veter.ru.txt  (lang: ru)
+[Intro]        empty
+[Verse 1]      4 lines · syllables 10 · scheme AABB
+   1  10  Северный ветер стучится в окно               A
+   2  10  Чай на столе остывает давно                  A
+   3  10  Я не ответил на тысячу слов                  B
+   4  10  Город молчит, и молчать я готов              B
+[Chorus]       4 lines · syllables 8 · scheme ABAB
+   1   8  Не уходи, пока горит                         A
+   2   8  Последний свет в моём окне                   B
+   3   8  Пусть этот город говорит                     A
+   4   8  О ком-то, но не обо мне                      B
+[Verse 2]      4 lines · syllables 10 · scheme AABB
+   1  10  Письма лежат, не прочтённые мной             A
+   2  10  Пыль на стекле, как от снега, седой          A
+   3  10  Помнишь, мы ждали весну до утра              B
+   4  10  Нынче весна — это просто вчера               B
+[Chorus]       4 lines · syllables 8 · scheme ABAB
+   1   8  Не уходи, пока горит                         A
+   2   8  Последний свет в моём окне                   B
+   3   8  Пусть этот город говорит                     A
+   4   8  О ком-то, но не обо мне                      B
+[Bridge]       2 lines · syllables 10 · scheme AA
+   1  10  Ветер, останься, не стой у двери             A
+   2  10  Я ещё здесь — мне ещё говори                 A
+[Chorus]       4 lines · syllables 8 · scheme ABAB
+   1   8  Не уходи, пока горит                         A
+   2   8  Последний свет в моём окне                   B
+   3   8  Пусть этот город говорит                     A
+   4   8  О ком-то, но не обо мне                      B
+[Outro]        2 lines · syllables 2-10 · scheme AA
+   1  10  Северный ветер стучится в окно               A
+   2   2  (в окно)                                     A
+! [Outro] line 1 has 10 syllables, section median 6 (+4)

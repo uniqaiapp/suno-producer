@@ -1,0 +1,12 @@
+[
+  {"args": ["scripts/lyric_meter.py", "examples/lyrics/midnight-bus.txt"], "output": "examples/outputs/midnight-bus.meter.txt"},
+  {"args": ["scripts/lyric_meter.py", "examples/lyrics/severny-veter.ru.txt"], "output": "examples/outputs/severny-veter.meter.txt"},
+  {"args": ["scripts/lyric_meter.py", "--json", "examples/lyrics/midnight-bus.txt"], "output": "examples/outputs/midnight-bus.meter.json"},
+  {"args": ["scripts/suno_lint.py", "examples/lyrics/midnight-bus.txt", "--style", "examples/style/midnight-bus.txt"], "output": "examples/outputs/midnight-bus.lint.txt"},
+  {"args": ["scripts/suno_lint.py", "examples/lyrics/severny-veter.ru.txt", "--style", "examples/style/severny-veter.ru.txt"], "output": "examples/outputs/severny-veter.lint.txt"},
+  {"args": ["scripts/suno_lint.py", "examples/lyrics/bad-tags.txt", "--style", "examples/style/bad-style.txt"], "output": "examples/outputs/bad-tags.lint.txt", "exit": 1},
+  {"args": ["scripts/brief.py", "--genre", "synthwave", "--fuse", "indie pop", "--mood", "melancholic", "--seed", "7"], "output": "examples/outputs/brief-synthwave-indie-pop.txt"},
+  {"args": ["scripts/brief.py", "--genre", "russian rock", "--mood", "dark", "--lang", "ru", "--seed", "3"], "output": "examples/outputs/brief-russian-rock.ru.txt"},
+  {"args": ["scripts/brief.py", "--genre", "house", "--mood", "euphoric", "--variants", "4", "--seed", "11", "--json"], "output": "examples/outputs/brief-house.json"},
+  {"args": ["scripts/brief.py", "--list"], "output": "examples/outputs/brief-list.txt"}
+]

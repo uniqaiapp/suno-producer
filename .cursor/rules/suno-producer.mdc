@@ -1,0 +1,7 @@
+---
+description: Writes Suno-ready song briefs (style prompt, section tags, even-length lyrics, one-axis A/B variants) and checks them with a syllable/rhyme meter and a tag lint, in English and Russian. Use for any Suno prompt, Suno tags, song structure or lyrics-for-Suno request.
+globs:
+alwaysApply: false
+---
+
+@SKILL.md
